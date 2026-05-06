@@ -1,5 +1,7 @@
 import os
-from openai import OpenAI
+from openai import OpenAI 
+# in Terminal run command 'python3 -m install openai'
+# In Terminal run command 'pip install --upgrade pip
 
 token = os.environ["GITHUB_TOKEN"]
 endpoint = "https://models.inference.ai.azure.com"
